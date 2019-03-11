@@ -1,115 +1,123 @@
 /*......................................................................................*/
 /*...................................Pagena Autor.......................................*/
 /*......................................................................................*/
-*{
-	margin: 0;
-	bottom: 0;
-}
-body{
-	background-color: #fff;
-	margin-top: 2px;
-}
-.conteudo{
-	width: 940px;
-	margin: 0 auto;
-	margin-bottom: 0;
-	
-}
-/*..............................Conteudo a esquerda............................*/
-.autor_conteudo{
-	background-color: #779397;
-	width: 278px;
-	height: 635px;
-	float: left;
-	font-size: 11px;
-	
-	box-shadow: -5px -10px 8px #000;
-}
-.autor_conteudo{
-	text-align: center;
-	text-transform: uppercase;
-		margin-bottom: 0;
-}
-.autor_conteudo hr{
-	width: 50%;
-	margin: 5px auto;
-	color: #fff;
-	
-}
-.autor_conteudo h1{
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 22px;
-	font-weight: bold;
-	padding-bottom: 3px;
-}
-.imagem_perfil{
-	background-image: url("../img/tomas08.png");
-	background-position: 93% 100%;
-	background-size:150%;
-	margin: 10px auto;
-
-	border: 1px solid #fff;
-	border-radius: 360px;
-	width: 200px;
-	height: 200px;	
-
-}
-
-.imagem_perfil:hover{
-	background-size:200%;
-	background-position: 80% 0%;
-	border: 1px solid #fff;
-	
-}
-
-.contatos{
-	position: relative;
-	margin-bottom: 0;
-	
-}
-
-/*..............................Conteudo a direita.............................*/
-article{
-	color: #black;
-	background-color: #ddd;
-	width: 660px;
-	height: 635px;
-	float: right;
-	position: relative;
-
-	box-shadow: 0px -10px 8px #000;
-	background-image: url(../img/a.jpg);
-	background-position: 80% 80%;
-	background-size: 100%;
-
-}
-.fundo{
-	background: rgba(62, 62, 62, 0.8);
-	width: 660px;
-	height: 635px;
-	float: right;
-	color: #fff;
-}
-.menu-opcoes{
+.menu{
+	left: 12px;
+	top: 21px;
 	position: absolute;
-	top: 30px;
-	right: 50px;
+}
+.menu p{
+	width: 30px;
+	height: 4px;
+	background-color: #009ee1;
+	margin-bottom: 3px;
+	line-height: 60px; 
+}
+.ajuda{
+	color: #009ee1;
+	right: 15px;
+	top: 23px;
+	position: absolute;
+	font-size: 1em;
+	border-width: 2px;
+	border-color: #009ee1;
+}
+.ajuda a {
+	text-decoration: none;
+}
+header h1{
+	color: #fff;
+	height: 60px;
+	background-color: #000;
+	line-height: 60px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
 
+}
+.banner{
+	height: 300px;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 35%;
+	margin-top: 1px;
+	margin-top-color:red;
+}
+.banner p{
+	height: 300px;
+	line-height: 300px;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	font-size: 1.5em;
+	color: #009ee1; /*118db1;*/
 	
 }
-.menu-opcoes ul{
 
-	font-size: 15px;
-	margin-bottom: 0px;
+
+
+
+.perfil{
+	position: relative;
 }
-.menu-opcoes a{
+.skill{
+	position: relative;
+}
+.titulo{
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	position: relative;
+	padding-left: 40px;
+	background-color: #009ee1;
+	color: #000;
+	margin-top: 3px;
+	font-weight: bold;
 	
-	color: #fff;
 }
-.menu-opcoes ul li{
+.texto_titulo{
+	position: absolute;
+	top: 0;
+	left: 34px;
+	color: #000;
+	font-weight: bold;
 
-	display: inline;
-	margin-left: 20px;
+}
+.perfil img{
+	position: absolute;
+	top: 4px;
+	left: 3px;
+	width: 26px;
+	height: 26px;
+}
+.skill img{
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 30px;
+	height: 30px;
+}
+
+.perfil .p2{
+	margin: 5px;
+	text-align: justify;
+}
+.skill ol li{
+	margin: 2px;
+	color: #777;
+}
+
+
+
+footer{
+	position: fixed;
+	top: 95%;
+	width:  100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	background-color: #063f57;/*0c7fb0;*/
 	color: #fff;
+	margin-top: 5px;
 }
